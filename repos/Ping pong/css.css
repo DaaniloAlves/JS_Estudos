@@ -1,0 +1,37 @@
+/* não vou me importar muito com o design ja que o objetivo do curso é aprender o javascript*/ 
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    border: solid black 3px;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+p > b {
+    font-size: 25px;
+}
+.margin-top {
+    margin-top: -15px;
+}
+#score {
+    font: 40px bold;
+    margin-left: 20px;
+}
+section > p {
+    margin-top: -13px;
+    margin-left: 20px;
+}
+#selecao {
+    margin-left: 20px;
+    font-size: 20px;
+}
+#pselecao {
+    margin-top: -35px;
+}
+#botoes {
+    display: flex;
+    margin-top: 25px;
+
+}

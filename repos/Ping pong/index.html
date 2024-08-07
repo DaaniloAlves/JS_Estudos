@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ping pong</title>
+    <link href="./css.css" rel="stylesheet"/>
+</head>
+<body>
+    <section id="main">
+        <div class="cont">
+            <img src="./images/raquete.jpg" alt="raquete imagem"/>
+            <p><b>Pontos de ping pong</b></p>
+        </div>
+        <br />
+        <section class="cont margin-top">
+            <p>
+                <div id="score"><span id="player1">0</span> a <span id="player2">0</span></div>
+            </p>
+            <p>
+                Use os botões abaixo para atualizar a pontuação
+            </p>
+            <br />
+            <p id="pselecao">
+                <div id="selecao">
+                    Jogando até <select>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    </select>
+                </div>
+            </p>
+            <p>
+                <section id="botoes">
+                    <button class="botao" id="botao1">+1 Player um</button>
+                    <button class="botao" id="botao2">+1 Player dois</button>
+                    <button class="botao" id="botao3">Reset</button>
+                </section>
+            </p>
+        </section>
+    </section>
+
+    <script src="./js.js"></script>
+</body>
+</html>
