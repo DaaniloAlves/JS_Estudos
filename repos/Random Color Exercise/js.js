@@ -9,5 +9,29 @@ function setRandomColor() {
 
 botao.addEventListener('click', setRandomColor);
 botao.addEventListener('click', () => {
-	titulo.innerText = randomColor
+	titulo.innerText = randomColor;
 })
+
+class Teste {
+	constructor() {
+		this.nome;
+		this.idade;
+	}
+
+	metodo() {
+		console.log(`Seu nome é ${this.nome} e sua idade é ${this.idade}`)
+	}
+	somar(valor) {
+		console.log(this.nome + valor)
+	}
+	atribuirValores(nome, idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
+}
+
+const meuTeste = new Teste();
+meuTeste.metodo();
+meuTeste.atribuirValores("Danilo", 20);
+meuTeste.metodo();
+meuTeste.somar(23);
